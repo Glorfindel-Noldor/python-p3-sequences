@@ -40,3 +40,6 @@ class TestPrintFibonacci:
         print_fibonacci(10)
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == '[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\n')
+
+
+
